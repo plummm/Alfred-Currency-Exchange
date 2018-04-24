@@ -8,7 +8,9 @@ sys.setdefaultencoding('utf-8')
 
 subtitle = 'Remove currency from panel'
 
-
+"""
+push item into item class
+"""
 def push_item(item_title,item_subtitle,flag,value):
     wf.add_item(title=item_title,
                 subtitle=item_subtitle,
