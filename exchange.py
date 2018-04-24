@@ -53,7 +53,9 @@ def convert(value, cy_from, cy_to):
                         default.base)
             push_item(title, subtitle, e, unit_value)
 
-
+"""
+parse different query
+"""
 def parse_query(args):
     length = len(args)
     if length == 0:
@@ -145,7 +147,9 @@ def get_currencies_json():
         f.close()
     return j
 
-
+"""
+load json from config.json
+"""
 def load_data(path):
     f = open(path, "r")
     data = json.load(f, encoding="utf-8")
