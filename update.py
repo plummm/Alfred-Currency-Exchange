@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 import json,sys
-import requests
+import urllib2
 from workflow import Workflow, web
 
 reload(sys)
@@ -12,7 +12,9 @@ default_id = '48c5e363909e4a2bba48937790c365e7'
 
 def main(wf):
     url = currencies_url.format(default_id)
-    j = requests.request('GET', url).json()
+    req = urllib2.urlopen(url)
+    j = json.load(req)
+    #j = requests.request('GET', url).json()
     f = open('currencies.json','w+')
     json.dump(j,f)
     f.close()

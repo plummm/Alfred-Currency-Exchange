@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 import json,sys
-import requests
 import math,re
+import urllib2
 import time,os
 from workflow import Workflow, web
 
@@ -142,7 +142,9 @@ def get_currencies_json():
     else:
         f = open('data.json', 'w+')
         convert_url = api_url.format(default.id)
-        j = requests.request("GET", convert_url).json()
+        req = urllib2.urlopen(convert_url)
+        j = json.load(req)
+        #j = requests.request("GET", convert_url).json()
         json.dump(j,f)
         f.close()
     return j

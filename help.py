@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 import json,sys
-import requests
+import urllib2
 from workflow import Workflow, web
 
 reload(sys)
