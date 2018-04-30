@@ -34,6 +34,8 @@ def push_item(item_title,item_subtitle,flag,value):
 def push_value(value):
     for e in value:
         unit_value = value[e]
+        if unit_value == 0:
+            continue
         now = time.localtime()
         title = '{0} {1}'.format(unit_value, e)
         subtitle = 'Last update : {0}/{1}/{2} {3}:{4}   Base : {5}' \
@@ -174,7 +176,7 @@ def split_query(op, query):
 
 def calculate(total_value, value, op):
     length = len(total_value)
-    for e in total_value:
+    for e in value:
         express = '{0}{1}{2}'.format(total_value[e],op[0],value[e])
         total_value[e] = eval(express)
     del op[0]
@@ -216,4 +218,4 @@ if __name__ == '__main__':
     wf = Workflow()
     log = wf.logger
     sys.exit(wf.run(main))
-    #main(['5.2eth','+','0.1btc'])
+    #main(['500', 'eth', '+', '0.2btc'])
