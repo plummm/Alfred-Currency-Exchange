@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 import json,sys
-import requests
 from workflow import Workflow, web
 
 reload(sys)
