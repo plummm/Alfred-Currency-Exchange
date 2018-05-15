@@ -10,7 +10,7 @@
 ## Installation
 
 
-- Donwload ["Currency Exchange for Alfred 3"](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/releases/download/v1.0/Currency.Exchange.alfredworkflow)
+- Donwload ["Currency Exchange for Alfred 3"](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/releases)
 - Double click and install
 
 ## Features
