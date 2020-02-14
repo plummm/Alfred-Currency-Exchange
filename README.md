@@ -6,6 +6,10 @@
 
  Currency Exchange is a powerful currency convertor for Alfred3
  
+## Important Notice
+Since I placed my APP ID as default, there might be a limited requesting times and everyone is using it.
+I suggest users follow this ["guide"](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/issues/9#issuecomment-586383365) to register your APP ID and replace mine.
+ 
  
 ## Installation
 
