@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 import json,sys
-import urllib2
+import urllib2, os
 import ssl
 from workflow import Workflow, web
 
@@ -8,10 +8,19 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 currencies_url = 'https://openexchangerates.org/api/currencies.json?app_id={0}&show_alternative=1'
-default_id = '498c33dac59d4b5b91651036c1033484'
+default_id = ''
 
 
 def main(wf):
+    if os.path.exists('id'):
+        f = open('id', 'r')
+        default_id = f.readline()
+        f.close()
+    else:
+        wf.add_item(title="Set API id first: cy-setid xxxxx",
+                subtitle='For more info, run cy-help')
+        wf.send_feedback()
+        return
     ssl._create_default_https_context = ssl._create_unverified_context
     url = currencies_url.format(default_id)
     req = urllib2.urlopen(url)

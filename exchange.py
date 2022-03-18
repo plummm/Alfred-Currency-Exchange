@@ -15,7 +15,7 @@ api_url = 'https://openexchangerates.org/api/latest.json?app_id={0}&show_alterna
 
 class Default():
     def __init__(self):
-        self.id = '498c33dac59d4b5b91651036c1033484'
+        self.id = ''
         self.precise = 2
         self.base = ''
         self.currencies = {}
@@ -201,6 +201,16 @@ def main(wf):
     global default
     default = Default()
 
+    if os.path.exists('id'):
+        f = open('id', 'r')
+        default.id = f.readline()
+        f.close()
+    else:
+        wf.add_item(title="Set API id first: cy-setid xxxxx",
+                subtitle='For more info, run cy-help')
+        wf.send_feedback()
+        return
+
     try:
         load_data(total_value, "config.json")
         default.currencies = get_currencies_names()
@@ -228,4 +238,3 @@ if __name__ == '__main__':
     wf = Workflow()
     log = wf.logger
     sys.exit(wf.run(main))
-    #main(['500', 'eth', '+', '0.2btc'])

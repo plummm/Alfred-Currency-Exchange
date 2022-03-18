@@ -9,7 +9,8 @@ sys.setdefaultencoding('utf-8')
 
 
 def main(wf):
-    wf.add_item(title="There are 7 types of formats you can use.", subtitle='For the following example, the base currency is USD.')
+    wf.add_item(title="First of all, register a free API ID", subtitle='Each free API id has 1000 requests per month', valid='yes')
+    wf.add_item(title="There are 7 formats you can use.", subtitle='For the following example, the base currency is USD.')
     wf.add_item(title='cy', subtitle='Convert 1 USD(the base currency) to other currencies on the panel. ')
     wf.add_item(title='cy 5.5', subtitle='Convert 5.5 USD(the base currency) to other currencies on the panel')
     wf.add_item(title='cy BTC', subtitle='Convert 1 BTC to other currencies on the panel')
