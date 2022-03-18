@@ -6,11 +6,17 @@
 
  Currency Exchange is a powerful currency convertor for Alfred3
  
+## Potential Issues
+Since I placed my APP ID as default, there might be a limited requesting times. It would be so fast to reach the upper limit because everyone is using it.
+
+I suggest users follow this [guide](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/issues/9#issuecomment-586383365) to register their own APP ID and follow this [guide](https://github.com/plummm/alfred3-workflow-CurrencyX/issues/10#issue-615729368) to replace mine.
+
  
 ## Installation
 
+- Install python3 (For macOS Monterey 12.3 or higher version): ["download"](https://www.python.org/ftp/python/2.7.18/python-2.7.18-macosx10.9.pkg)
 
-- Donwload ["Currency Exchange for Alfred 3"](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/releases/download/v1.0/Currency.Exchange.alfredworkflow)
+- Donwload ["Currency Exchange for Alfred 3"](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/releases)
 - Double click and install
 
 ## Features
