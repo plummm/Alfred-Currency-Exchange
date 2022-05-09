@@ -725,7 +725,7 @@ python setid.py $1</string>
 	<key>variables</key>
 	<dict>
 		<key>PATH</key>
-		<string>/usr/local/bin/:$PATH</string>
+		<string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array/>
