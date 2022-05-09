@@ -4,12 +4,14 @@
 - - -
 
 
- Currency Exchange is a powerful currency convertor for Alfred3
+ Currency Exchange is a powerful currency convertor powered by Alfred3
  
 ## Potential Issues
-Since I placed my APP ID as default, there might be a limited requesting times. It would be so fast to reach the upper limit because everyone is using it.
+This tool associates with [openexchangerates](https://openexchangerates.org/). Each user should have their own `APP ID` since there are limited requesting times.
 
-I suggest users follow this [guide](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/issues/9#issuecomment-586383365) to register their own APP ID and follow this [guide](https://github.com/plummm/alfred3-workflow-CurrencyX/issues/10#issue-615729368) to replace mine.
+I placed my `APP ID` as default, so it could be fast to reach the upper limit if you don't change it to yours.
+
+I suggest users follow [guide1](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/issues/9#issuecomment-586383365) to register their own `APP ID` and follow [guide2](https://github.com/plummm/alfred3-workflow-CurrencyX/issues/10#issue-615729368) to replace mine.
 
  
 ## Installation
