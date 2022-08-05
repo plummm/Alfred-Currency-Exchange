@@ -16,7 +16,7 @@ I suggest users follow [guide1](https://github.com/FlyRabbit/alfred3-workflow-Cu
  
 ## Installation
 
-- Install python3 (For macOS Monterey 12.3 or higher version): ["download"](https://www.python.org/ftp/python/2.7.18/python-2.7.18-macosx10.9.pkg)
+- Install python (For macOS Monterey 12.3 or higher version): ["download"](https://www.python.org/ftp/python/2.7.18/python-2.7.18-macosx10.9.pkg)
 
 - Donwload ["Currency Exchange for Alfred 3"](https://github.com/FlyRabbit/alfred3-workflow-CurrencyX/releases)
 - Double click and install
