@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.etenal.currencyexchange</string>
+	<key>connections</key>
+	<dict>
+		<key>4D62848C-F097-4AF0-BDBA-2B768DEEC22F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0079F631-37F1-4765-8DD0-9AE71B9886E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E4646B8-FC8C-444B-8950-F02E63F2C9C7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5A37D6F0-1242-463A-9EF8-E51CF7BAF1AA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1F0793CB-C046-416A-B43C-F311F66CEE42</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0079F631-37F1-4765-8DD0-9AE71B9886E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7B2A7753-7B34-4672-8336-AD7ADA1D33A8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4F63EE79-28DB-41F3-9A90-B315A40179B5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>999512DF-9263-412F-B1F6-F6720F219E94</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0079F631-37F1-4765-8DD0-9AE71B9886E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0F58E80F-5C76-4FFC-BCAB-E56FF8ACC6A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D303041F-F4CD-4629-9AF1-A0B2FC1CAB92</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E6DCF3F8-E40C-427B-BA3B-37C73027F650</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FB5FDEF6-F3D6-447B-95FC-A25EA085D636</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4E72B216-2845-4830-B839-C6A741B1BF90</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>etenal</string>
+	<key>description</key>
+	<string>Currency Exchange include BTC, ETH</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Currency Exchange</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cy</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Currency Exchange</string>
+				<key>script</key>
+				<string>#!/bin/bash
+python3 exchange.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Currency Exchange</string>
+				<key>title</key>
+				<string>Currency Exchange</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FB5FDEF6-F3D6-447B-95FC-A25EA085D636</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>4E72B216-2845-4830-B839-C6A741B1BF90</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cy-add</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Add new currency to panel</string>
+				<key>script</key>
+				<string>#!/bin/bash
+python3 add.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Add new currency to panel</string>
+				<key>title</key>
+				<string>Add new currency to panel</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5A37D6F0-1242-463A-9EF8-E51CF7BAF1AA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Successfully add {query} to panel</string>
+				<key>title</key>
+				<string>Add {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>1F0793CB-C046-416A-B43C-F311F66CEE42</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+python3 write.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0079F631-37F1-4765-8DD0-9AE71B9886E6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Successfully remove {query} from panel</string>
+				<key>title</key>
+				<string>Remove {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>0F58E80F-5C76-4FFC-BCAB-E56FF8ACC6A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cy-del</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Remove currency from panel</string>
+				<key>script</key>
+				<string>#!/bin/bash
+python3 del.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Remove currency from panel</string>
+				<key>title</key>
+				<string>Remove currency from panel</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>999512DF-9263-412F-B1F6-F6720F219E94</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Successfully set {query} as base</string>
+				<key>title</key>
+				<string>Set {query} as base</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>3E4646B8-FC8C-444B-8950-F02E63F2C9C7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cy-base</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Set a new base currency</string>
+				<key>script</key>
+				<string>#!/bin/bash
+python3 base.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Set a new base currency</string>
+				<key>title</key>
+				<string>Set a new base currency</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4D62848C-F097-4AF0-BDBA-2B768DEEC22F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Bottle</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>4F63EE79-28DB-41F3-9A90-B315A40179B5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cy-update</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Updating.....Please Wait</string>
+				<key>script</key>
+				<string>#!/bin/bash
+python3 update.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Update currencies lists from server</string>
+				<key>title</key>
+				<string>Update currencies lists from server</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7B2A7753-7B34-4672-8336-AD7ADA1D33A8</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://openexchangerates.org/signup/free</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>E6DCF3F8-E40C-427B-BA3B-37C73027F650</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cy-help</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>How to use</string>
+				<key>script</key>
+				<string>#!/bin/bash
+python3 help.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>How to use</string>
+				<key>title</key>
+				<string>How to use</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D303041F-F4CD-4629-9AF1-A0B2FC1CAB92</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cy-setid</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Set API ID</string>
+				<key>script</key>
+				<string>#!/bin/bash
+
+python3 setid.py $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>cy-setid xxxxxxxxxx</string>
+				<key>title</key>
+				<string>Set API ID</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F8D9651D-B10F-4EAE-8D44-43CD1F0D4512</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Currency Exchange for Alfred
+
+
+- - -
+
+
+ Currency Exchange is a powerful currency convertor for Alfred
+ 
+## Installation
+
+- Donwload ["Currency Exchange for Alfred"](https://github.com/plummm/Alfred-Currency-Exchange/releases/)
+- Double click and install
+
+## Features
+- Support cryptocurrencies, BTC, ETH, etc.
+- Support most of currencies in the world
+- Display with a customizable plane
+
+## Configuration
+*Currency Exchange for Alfred* is powered by ["Openexchangerates"](https://openexchangerates.org/). Register your account and get your own `app_id` from ["here"](https://openexchangerates.org/signup/free).
+
+First time use, type `cy-setid [app_id]` to set your `app_id`.
+
+## Instructions
+
+Default base currency is *USD*
+
+
+
+
+- `cy`
+
+Convert 1 USD(the base currency) to other currencies on the panel.
+
+![](./resources/cy.jpg)
+
+
+_ _ _
+
+
+- `cy [value]`
+
+Convert 5.5 USD(the base currency) to other currencies on the pane
+
+![](./resources/cy_5.5.gif)
+
+- - -
+
+- `cy [currency]`
+
+Convert 1 BTC to other currencies on the panel
+
+
+![](./resources/cy_btc.gif)
+
+- - -
+
+- `cy [value][currency]`
+
+Convert 5.5 BTC to other currencies on the panel
+
+![](./resources/cy_5.5btc.gif)
+
+- - -
+
+- `cy [value] [currency]`
+
+Convert 5.5 USD(the base currency) to THB
+
+![](./resources/cy_5.5_thb.gif)
+
+- - -
+
+- `cy [currency] [currency]`
+
+Convert 1 BTC to CNY
+
+![](./resources/cy_btc_cny.gif)
+
+- - -
+
+- `cy-add [currency]`
+
+Add THB to the panel
+
+![](./resources/cy_add.gif)
+
+- - -
+
+- `cy-del [currency]`
+
+Remove THB from the panel
+
+![](./resources/cy_del.gif)
+
+- - -
+
+- `cy-base [currency]`
+
+Set CNY as the base currency
+
+![](./resources/cy_base.gif)
+
+- - -
+
+- `cy-update`
+
+Update currencies list from remote
+
+![](./resources/cy_update.gif)
+
+- - -
+
+- `cy-help`
+
+Show you how to use
+
+![](./resources/cy_help.gif)
+
+## Support Currencies
+
+- AUD
+- BGN
+- BRL
+- BTC
+- BTS
+- CAD
+- CHF
+- CNY
+- CZK
+- DASH
+- DKK
+- DOGE
+- EMC
+- ETH
+- EUR
+- FCT
+- GBP
+- HKD
+- HRK
+- HUF
+- IDR
+- ILS
+- INR
+- JPY
+- KRW
+- LTC
+- MXN
+- MYR
+- NMC
+- NOK
+- NXT
+- NZD
+- PHP
+- PLN
+- PPC
+- RON
+- RUB
+- SEK
+- SGD
+- THB
+- TRY
+- USD
+- VTC
+- XMR
+- XRP
+- ZAR
+- AED
+- AFN
+- ANG
+- ARS
+- AWG
+- AZN
+- BAM
+- BBD
+- BDT
+- BHD
+- BIF
+- BMD
+- BND
+- BOB
+- BSD
+- BTN
+- BWP
+- BZD
+- CDF
+- CLP
+- COP
+- CRC
+- CUP
+- CVE
+- DJF
+- DOP
+- DZD
+- EGP
+- ERN
+- ETB
+- FJD
+- FKP
+- GEL
+- GHS
+- GIP
+- GMD
+- GNF
+- GTQ
+- GYD
+- HNL
+- HTG
+- IQD
+- IRR
+- ISK
+- JMD
+- JOD
+- KES
+- KGS
+- KHR
+- KMF
+- KPW
+- KWD
+- KYD
+- KZT
+- LAK
+- LBP
+- LKR
+- LRD
+- LTL
+- LYD
+- MAD
+- MDL
+- MGA
+- MKD
+- MMK
+- MNT
+- MOP
+- MRO
+- MUR
+- MVR
+- MWK
+- MZN
+- NAD
+- NGN
+- NIO
+- NPR
+- OMR
+- PEN
+- PGK
+- PKR
+- PYG
+- QAR
+- RSD
+- RWF
+- SAR
+- SBD
+- SHP
+- SLL
+- SOS
+- SRC
+- SRD
+- STD
+- SVC
+- SYP
+- SZL
+- TJS
+- TND
+- TOP
+- TTD
+- TWD
+- TZS
+- UAH
+- UGX
+- UYU
+- UZS
+- VEF
+- VND
+- VUV
+- WST
+- XAF
+- XCD
+- XOF
+- XPF
+- YER
+- ZMW</string>
+	<key>uidata</key>
+	<dict>
+		<key>0079F631-37F1-4765-8DD0-9AE71B9886E6</key>
+		<dict>
+			<key>xpos</key>
+			<real>480</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>0F58E80F-5C76-4FFC-BCAB-E56FF8ACC6A2</key>
+		<dict>
+			<key>xpos</key>
+			<real>690</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>1F0793CB-C046-416A-B43C-F311F66CEE42</key>
+		<dict>
+			<key>xpos</key>
+			<real>690</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>3E4646B8-FC8C-444B-8950-F02E63F2C9C7</key>
+		<dict>
+			<key>xpos</key>
+			<real>690</real>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>4D62848C-F097-4AF0-BDBA-2B768DEEC22F</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>4E72B216-2845-4830-B839-C6A741B1BF90</key>
+		<dict>
+			<key>xpos</key>
+			<real>480</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>4F63EE79-28DB-41F3-9A90-B315A40179B5</key>
+		<dict>
+			<key>xpos</key>
+			<real>690</real>
+			<key>ypos</key>
+			<real>630</real>
+		</dict>
+		<key>5A37D6F0-1242-463A-9EF8-E51CF7BAF1AA</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>7B2A7753-7B34-4672-8336-AD7ADA1D33A8</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>630</real>
+		</dict>
+		<key>999512DF-9263-412F-B1F6-F6720F219E94</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>D303041F-F4CD-4629-9AF1-A0B2FC1CAB92</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>780</real>
+		</dict>
+		<key>E6DCF3F8-E40C-427B-BA3B-37C73027F650</key>
+		<dict>
+			<key>xpos</key>
+			<real>695</real>
+			<key>ypos</key>
+			<real>775</real>
+		</dict>
+		<key>F8D9651D-B10F-4EAE-8D44-43CD1F0D4512</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>915</real>
+		</dict>
+		<key>FB5FDEF6-F3D6-447B-95FC-A25EA085D636</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/usr/local/bin/:/usr/bin:$PATH</string>
+	</dict>
+	<key>version</key>
+	<string>1.3.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/plummm/Alfred-Currency-Exchange</string>
+</dict>
+</plist>
